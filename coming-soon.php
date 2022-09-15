@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zxx">
     
-<!-- Mirrored from templates.envytheme.com/dibiz/default/coming-soon.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Sep 2022 04:28:45 GMT -->
+<!-- Mirrored from templates.envytheme.com/dibiz/default/coming-soon.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Sep 2022 04:28:45 GMT -->
 <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -34,7 +34,7 @@
             <div class="d-table">
                 <div class="d-table-cell">
                     <div class="coming-soon-content">
-                        <a href="index.html" class="logo">
+                        <a href="index.php" class="logo">
                             <img src="assets/img/logo.png" alt="image">
                         </a>
                         <h2>We Are Launching Soon</h2>
@@ -77,5 +77,5 @@
         <script src="assets/js/main.js"></script>
     </body>
 
-<!-- Mirrored from templates.envytheme.com/dibiz/default/coming-soon.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Sep 2022 04:28:45 GMT -->
+<!-- Mirrored from templates.envytheme.com/dibiz/default/coming-soon.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Sep 2022 04:28:45 GMT -->
 </html>

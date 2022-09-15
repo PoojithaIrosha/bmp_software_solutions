@@ -56,19 +56,15 @@
 
                 <div class="collapse navbar-collapse mean-menu">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
 
-                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-
-                        <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
-
-                        <li class="nav-item"><a href="#" class="nav-link">Pages</a></li>
+                        <li class="nav-item"><a href="about-us.php" class="nav-link">About</a></li>
 
                         <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
 
                         <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
 
-                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
                     </ul>
 
                     <!--Toggle Theme-->
@@ -97,7 +93,7 @@
             <span class="sub-title">Growth Your Business</span>
             <h1>We Provide Best Quality Software Solutions</h1>
             <h4 class="text-muted">Building the Relations Digitally</h4>
-            <a href="contact.html" class="default-btn">Get Started</a>
+            <a href="contact.php" class="default-btn">Get Started</a>
         </div>
     </div>
 
@@ -499,7 +495,7 @@
                         As a company we have trustworthy, flexible, creative,
                         skillful, professional team to resolve challenges and
                         to give new life to client requirments</p>
-                    <a href="contact.html" class="default-btn">Get Started</a>
+                    <a href="contact.php" class="default-btn">Get Started</a>
                 </div>
             </div>
         </div>
@@ -520,7 +516,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-footer-widget">
-                    <a href="index-6.html" class="logo">
+                    <a href="index.html" class="logo">
                         <img src="assets/img/footer-logo.png" style="height: 200px" alt="logo">
                     </a>
                     <p>Our company provides the best software solution. As a company we have trustworthy, flexible,
@@ -545,7 +541,7 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about-us-1.html">About</a></li>
                         <li><a href="portfolio-1.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -556,7 +552,7 @@
 
                     <ul class="footer-links-list">
                         <li><a href="team-1.html">Team</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                         <li><a href="faq.html">FAQ</a></li>
                         <li><a href="blog-1.html">Blog</a></li>
                     </ul>
