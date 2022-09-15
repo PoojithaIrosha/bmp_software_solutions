@@ -9363,32 +9363,32 @@ Contact Area CSS
   background-color: var(--whiteColor);
 }
 
-.contact-form form .form-group {
+.contact-form .form .form-group {
   margin-bottom: 15px;
 }
 
-.contact-form form .form-group textarea.form-control {
+.contact-form .form .form-group textarea.form-control {
   height: auto;
 }
 
-.contact-form form .help-block ul {
+.contact-form .form .help-block ul {
   margin-bottom: 0;
   margin-top: 12px;
 }
 
-.contact-form form .help-block ul li {
+.contact-form .form .help-block ul li {
   color: red;
 }
 
-.contact-form form .default-btn {
+.contact-form .form .default-btn {
   margin-top: 5px;
 }
 
-.contact-form form #msgSubmit {
+.contact-form .form #msgSubmit {
   margin: 0 !important;
 }
 
-.contact-form form #msgSubmit.text-danger, .contact-form form #msgSubmit.text-success {
+.contact-form .form #msgSubmit.text-danger, .contact-form .form #msgSubmit.text-success {
   margin-top: 15px !important;
 }
 

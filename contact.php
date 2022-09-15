@@ -28,7 +28,9 @@
 </head>
 <body>
 
+<!-- Header -->
 <?php require "header.php"; ?>
+<!-- Header -->
 
 <!-- Start Page Title Area -->
 <section class="page-title-area">
@@ -118,9 +120,25 @@
             </div>
 
             <div class="col-lg-6 col-md-12">
+                <!-- Toast -->
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <img src="assets/img/favicon.png" style="height: 30px;" class="rounded me-2" alt="...">
+                            <strong class="me-auto text-warning">BMP Software Solutions</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                            Message Sent Successfully!
+                        </div>
+                    </div>
+                </div>
+                <!-- Toast -->
+
                 <div class="contact-form">
-                    <form id="contactForm">
+                    <div class="form">
                         <div class="row">
+                            <!-- Name -->
                             <div class="col-lg-12 col-md-6">
                                 <div class="form-group">
                                     <input type="text" name="name" class="form-control" id="name" required
@@ -129,6 +147,7 @@
                                 </div>
                             </div>
 
+                            <!-- Email -->
                             <div class="col-lg-12 col-md-6">
                                 <div class="form-group">
                                     <input type="email" name="email" class="form-control" id="email" required
@@ -137,15 +156,17 @@
                                 </div>
                             </div>
 
+                            <!-- Phone Number -->
                             <div class="col-lg-12 col-md-12">
                                 <div class="form-group">
-                                    <input type="text" name="phone_number" class="form-control" id="phone_number"
+                                    <input type="text" name="mobile" class="form-control" id="mobile"
                                            required data-error="Please enter your phone number"
                                            placeholder="Your phone number">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
 
+                            <!-- Message -->
                             <div class="col-lg-12 col-md-12">
                                 <div class="form-group">
                                     <textarea name="message" id="message" class="form-control" cols="30" rows="6"
@@ -155,13 +176,15 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-12 col-md-12">
-                                <button type="submit" class="default-btn">Send Message</button>
+                            <div class="col-lg-12 col-md-12 d-flex align-items-center justify-content-center">
+                                <button type="submit" class="default-btn" onclick="sendMessage();" id="submitBtn">Send Message</button>
+                                <div class="spinner-border text-warning d-none" id="loader" role="status"></div>
                                 <div id="msgSubmit" class="h3 text-center hidden"></div>
                                 <div class="clearfix"></div>
                             </div>
                         </div>
-                    </form>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -171,14 +194,14 @@
 
 <!-- Start Map Area -->
 <div id="map">
-<!--    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9476519598093!2d-73.99185268459418!3d40.74117737932881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a3f81d549f%3A0xb2a39bb5cacc7da0!2s175%205th%20Ave%2C%20New%20York%2C%20NY%2010010%2C%20USA!5e0!3m2!1sen!2sbd!4v1588746137032!5m2!1sen!2sbd"></iframe>-->
+    <!--    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9476519598093!2d-73.99185268459418!3d40.74117737932881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a3f81d549f%3A0xb2a39bb5cacc7da0!2s175%205th%20Ave%2C%20New%20York%2C%20NY%2010010%2C%20USA!5e0!3m2!1sen!2sbd!4v1588746137032!5m2!1sen!2sbd"></iframe>-->
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4047271.2942278837!2d78.46180615032077!3d7.851732103649633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2593cf65a1e9d%3A0xe13da4b400e2d38c!2sSri%20Lanka!5e0!3m2!1sen!2slk!4v1663224157669!5m2!1sen!2slk"></iframe>
 </div>
 <!-- End Map Area -->
 
+<!-- Footer -->
 <?php require "footer.php"; ?>
-
-
+<!-- Footer -->
 
 <div class="go-top"><i class='bx bx-up-arrow-alt'></i></div>
 
@@ -187,6 +210,7 @@
         src="https://templates.envytheme.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/appear.min.js"></script>
 <script src="assets/js/odometer.min.js"></script>
 <script src="assets/js/magnific-popup.min.js"></script>
@@ -202,5 +226,4 @@
 <script src="assets/js/main.js"></script>
 </body>
 
-<!-- Mirrored from templates.envytheme.com/dibiz/default/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Sep 2022 04:28:46 GMT -->
 </html>

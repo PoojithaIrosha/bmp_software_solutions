@@ -49,14 +49,14 @@
     <div class="dibiz-nav">
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img src="assets/img/logo.png" class="main-logo mt-2" style="width: 180px" alt="logo">
                     <img src="assets/img/white-logo.png" style="width: 100px" class="white-logo mt-2" alt="logo">
                 </a>
 
                 <div class="collapse navbar-collapse mean-menu">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="index.php" class="nav-link active">Home</a></li>
 
                         <li class="nav-item"><a href="about-us.php" class="nav-link">About</a></li>
 
@@ -436,7 +436,7 @@
                         <li><a href="https://www.facebook.com/profile.php?id=100073361812160" class="d-block"
                                target="_blank"><i class='bx bxl-facebook'></i></a></li>
                         <li><a href="https://www.instagram.com/menuka_malinda/" class="d-block" target="_blank"><i
-                                class='bx bxl-instagram'></i></a></li>
+                                        class='bx bxl-instagram'></i></a></li>
                         <li><a href="https://www.linkedin.com/in/menuka-malinda-83989a244/" class="d-block"
                                target="_blank"><i class='bx bxl-linkedin'></i></a></li>
                     </ul>
@@ -455,9 +455,9 @@
 
                     <ul class="social-link">
                         <li><a href="https://www.facebook.com/PoojithaIrosha/" class="d-block" target="_blank"><i
-                                class='bx bxl-facebook'></i></a></li>
+                                        class='bx bxl-facebook'></i></a></li>
                         <li><a href="https://www.instagram.com/poojitha_irosha/" class="d-block" target="_blank"><i
-                                class='bx bxl-instagram'></i></a></li>
+                                        class='bx bxl-instagram'></i></a></li>
                         <li><a href="https://www.linkedin.com/in/poojitha-irosha-614950219/" class="d-block"
                                target="_blank"><i class='bx bxl-linkedin'></i></a></li>
                     </ul>
@@ -525,7 +525,7 @@
 
                     <ul class="social-link">
                         <li><a href="https://www.facebook.com/bmpsoftwaresolutions" class="d-block" target="_blank"><i
-                                class='bx bxl-facebook'></i></a></li>
+                                        class='bx bxl-facebook'></i></a></li>
                         <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-twitter'></i></a></li>
                         <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-instagram'></i></a></li>
                         <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
@@ -596,8 +596,6 @@
 <div class="go-top"><i class='bx bx-up-arrow-alt'></i></div>
 
 <!-- Links of JS files -->
-<script data-cfasync="false"
-        src="https://templates.envytheme.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/appear.min.js"></script>
