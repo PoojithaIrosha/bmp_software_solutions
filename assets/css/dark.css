@@ -22,7 +22,7 @@ Default CSS
   left: 0;
   right: 0;
   bottom: 0;
-  background: #cecbcb;
+  /*background: #cecbcb;*/
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -41,11 +41,11 @@ Default CSS
 }
 
 .switch-box input:checked + .slider {
-  background-color: #cecbcb;
+  /*background-color: #cecbcb;*/
 }
 
 .switch-box input:focus + .slider {
-  background-color: #cecbcb;
+  /*background-color: #cecbcb;*/
 }
 
 .switch-box input:checked + .slider:before {
@@ -132,11 +132,11 @@ Default CSS
 }
 
 .theme-dark .dibiz-nav .navbar .navbar-nav .nav-item a.active {
-  color: #fe4c1c;
+  /*color: #fe4c1c;*/
 }
 
 .theme-dark .dibiz-nav .navbar .navbar-nav .nav-item a:hover {
-  color: #fe4c1c;
+  color: #ffb601;
 }
 
 .theme-dark .navbar-area.is-sticky {

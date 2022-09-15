@@ -89,7 +89,6 @@
 
 	// Team Slides
 	$('.team-slides').owlCarousel({
-		loop: true,
 		nav: false,
 		dots: true,
 		autoplayHoverPause: true,
@@ -110,7 +109,7 @@
 				items: 2,
 			},
 			992: {
-				items: 4,
+				items: 3,
 			}
 		}
 	});
@@ -474,10 +473,6 @@
 		items: 1,
 		center: true,
 	});
-
-	// Buy Now Btn
-	$('body').append("<a href='https://themeforest.net/checkout/from_item/27446681?license=regular&support=bundle_6month&_ga=2.224557722.1657781501.1653794352-1356931366.1645330919' target='_blank' class='buy-now-btn'><img src='assets/img/envato.png' alt='envato'/>Buy Now</a>");
-
 }(jQuery));
 
 // function to set a given theme/color-scheme
